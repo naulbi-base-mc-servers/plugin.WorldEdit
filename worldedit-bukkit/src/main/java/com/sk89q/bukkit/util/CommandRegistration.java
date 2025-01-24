@@ -36,12 +36,12 @@ import java.util.Set;
 
 public class CommandRegistration {
 
-    static {
+    /*static {
         Bukkit.getServer().getHelpMap().registerHelpTopicFactory(
             DynamicPluginCommand.class,
             new DynamicPluginCommandHelpTopic.Factory()
         );
-    }
+    }*/
 
     protected final Plugin plugin;
     protected final CommandExecutor executor;
